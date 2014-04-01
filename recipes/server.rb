@@ -19,5 +19,5 @@ include_recipe 'collectd::client'
 include_recipe "collectd::_server_logfile"
 
 collectd_plugin "network" do
-  options :listen=>'0.0.0.0'
+  options :listen => '0.0.0.0'
 end

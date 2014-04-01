@@ -31,7 +31,7 @@ end
     source "#{file}.conf.erb"
     owner "root"
     group "root"
-    mode 0644
+    mode '0644'
     notifies :restart, "service[collectd]", :delayed
   end
 end
