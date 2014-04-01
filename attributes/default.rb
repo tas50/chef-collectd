@@ -16,7 +16,7 @@
 
 default['collectd']['interval'] = 10
 default['collectd']['read_threads'] = 5
-default['collectd']['version'] = "5.1.0"
+default['collectd']['version'] = "5.4.0"
 default['collectd']['fqdn_lookup'] = "false"
 default['collectd']['server_role'] = "collectd-server"
 default['collectd']['install_type'] = "package"
